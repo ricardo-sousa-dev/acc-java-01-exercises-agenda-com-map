@@ -2,6 +2,7 @@ package com.trybe.agenda;
 
 import java.util.HashMap;
 
+/** class agenda. */
 public class AgendaMapa {
   private HashMap<String, String> agenda = new HashMap<String, String>();
 
@@ -29,6 +30,9 @@ public class AgendaMapa {
     return agenda.get(name);
   }
 
+  /**
+   * @param args
+   */
   public static void main(String[] args) {
     AgendaMapa agenda = new AgendaMapa();
     agenda.incluirContato("João", "88889999");
